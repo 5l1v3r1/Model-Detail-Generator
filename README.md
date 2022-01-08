@@ -17,6 +17,14 @@ pre-trained model is provided here.
 
 ## Training Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EkMYbgjM_Xad4uSRQ31IJZgQwVuQX829?usp=sharing)
 
-To train a PolyGen model from scratch on a collection of simple meshes use this
+To train the model from scratch on a collection of simple meshes use this
 colab. This demonstrates the data pre-processing required to create inputs for
 the vertex and face models.
+
+## Sampling pre-trained model Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16TKWgwyVnT40s-SdtBiWEN2_D_JGmqGJ?usp=sharing)
+
+To sample a model pre-trained on [ShapeNet](https://www.shapenet.org/)
+use this colab. The model is class-conditional, and is trained on longer
+sequence lengths than those described in the paper. This colab uses the
+following checkpoints: ([Google Cloud Storage
+bucket](https://console.cloud.google.com/storage/browser/deepmind-research-polygen)).
